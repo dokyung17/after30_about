@@ -5,10 +5,14 @@
         <title>Main Page</title>
     </head>
     <body>
-    <nav>
-        <a href="/company/">company info</a>
-        <a href="/product/">product</a>
-    </nav>
-    <h1>Main Page</h1>
+        {% extends 'base.html' %}
+        {% block content %}
+        <h1>Main Page</h1>
+        <p>
+          식후 30분에 오신 것을 환영합니다!<br>
+          건강한 습관, 작은 실천이 큰 변화를 만듭니다.<br>
+          오늘도 식후 30분과 함께 건강을 챙겨보세요.
+        </p>
+        {% endblock %}
     </body>
 </html>

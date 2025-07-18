@@ -5,11 +5,16 @@
         <title>Company Info</title>
     </head>
     <body>
-        <nav>
-            <a href="/company/">company info</a>
-            <a href="/product/">product</a>
-        </nav>
+        {% extends 'base.html' %}
+        {% block content %}
         <h1>Company Info</h1>
+        <p>
+          식후 30분은 건강한 삶을 위한 작은 습관의 힘을 믿는 기업입니다.<br>
+          우리는 일상 속에서 실천할 수 있는 건강 관리 방법과 정보를 제공하며,<br>
+          모두가 더 나은 내일을 만들어갈 수 있도록 돕고 있습니다.<br>
+          식후 30분과 함께 건강한 변화를 시작해보세요!
+        </p>
+        {% endblock %}
 
     </body>
 </html> 
